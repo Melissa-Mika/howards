@@ -1,12 +1,27 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+    background-image: url(bass-fish-large.png);
+    background-size: cover;
+    background-attachment: fixed;
     background-color: lightblue;
     color: darkblue;
-
-
-
-
 }
 
 h1 {
-    background-color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 4em;
+    color: coral;
+    font-family: Caveat, cursive;
+    
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
