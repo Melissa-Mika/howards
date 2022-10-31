@@ -3,8 +3,6 @@
     padding: 0px;
 }
 
-
-
 body {
     background-color: lightblue;
     color: darkblue;
@@ -42,6 +40,7 @@ a:active {
 
 .fa-brands {
     font-size: 30px;
+    background-color: lightblue;
 }
 
 .socialmedia {
@@ -49,6 +48,7 @@ a:active {
     top: 0px;
     right: 25px;
     font-size: 45px;
+    background-color: lightblue;
     color: darkblue;
 }
 
@@ -82,13 +82,17 @@ h1 {
 }
 
 .footerhome {
+    
     color: darkgreen;
     background-color: coral;
     font-family: "Lucida Sans", "Lucida Sans Regular", 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
 
+
 }
+
+
 
 
 /* About Us Page Code */
@@ -113,6 +117,14 @@ h1 {
 
 }
 
+.clearFloat {
+    clear:both;
+}
+
+.content-wrap {
+    padding: 20px;
+}
+
 .left,
 .right,
 .left2,
@@ -121,6 +133,11 @@ h1 {
     clear: both;
 }
 
+
+.storetext {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .footerabout {
 
@@ -147,6 +164,9 @@ h1 {
     font-size: 90px;
     color: black;
     text-shadow: 5px 5px lightblue;
+    width: 50%;
+    margin: auto;
+    background-color: pink;
 }
 
 table {
@@ -174,6 +194,13 @@ table {
     background-color: lightblue;
 }
 
+.sidebar {
+    font-style: italic;
+    font-weight: bold;
+    width: 100px;
+    color: maroon;
+}
+
 .sidebar,
 td {
     border: 3px black solid;
@@ -186,10 +213,18 @@ td {
     height: 60px;
 }
 
+td {
+    width: 150px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
 
 .footershop {
-    position: sticky;
-    bottom: 0px;
+    
     color: darkblue;
     background-color: lightblue;
     font-family: "Lucida Sans", "Lucida Sans Regular", 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
